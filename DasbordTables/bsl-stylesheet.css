@@ -1,0 +1,907 @@
+/* challan list */
+#challan_list{
+padding-top: 30px;
+}
+#challan_list #form1{
+    margin-bottom: 30px;
+    }
+    #challan_list .card-header{
+    margin-bottom:30px;
+    
+    }
+    #challan_list .card-title {
+        font-size: 2.1rem;
+        font-weight: 600;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    #challan_list .card-title::after {
+        background: #f00;
+        background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);  
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height:5px;
+        width: 40%;
+     }
+     #challan_list .breadcrumb-item a{
+    color:#000;
+    }
+    #challan_list .breadcrumb-item {
+    font-size:20px;
+    }
+    #challan_list label:not(.form-check-label):not(.custom-file-label) {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    #challan_list .btn-warning:hover {
+        background-color: #000000;
+        border-color: #000000;
+    }
+    #challan_list .btn-success {
+        color: #4ad17a;
+        background-color: #ffffff;
+        border-color: #ffffff;
+        box-shadow: none;
+    font-size:24px;
+    }
+    #challan_list .btn-success:hover {
+        color: #4ad17a;
+        background-color: #ffffff;
+        border-color: #ffffff;
+    }
+    #challan_list .card-body .table thead{
+    background-color: #000;
+        color: #fff;
+    }
+    #challan_list .card-body .table thead tr th{
+    padding: 26px 11px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    #challan_list .card-body .table tbody tr td{
+    padding-top: 38px !important;
+        padding-bottom: 38px !important;
+    }
+    #challan_list .table td, .table th {
+        border-top: 1px solid #000000;
+    }
+    #challan_list .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    }
+    #challan_list .btn-warning {
+        color: #1f2d3d;
+        background-color: #000000;
+        border-color: #000000;
+        box-shadow: none;
+    }
+    #challan_list .page-item.active .page-link {
+        z-index: 3;
+        color: #fff;
+        background-color: #000000;
+        border-color: #000000;
+    }
+    #challan_list .page-link {
+        position: relative;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #000000;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+    }
+    #challan_list .page-link:hover {
+        z-index: 2;
+        color: #000000;
+    }
+
+    /* Challan List End */
+
+    /* #User Management start*/
+    #user_management{
+        padding-top: 30px;
+        }
+        #user_management #form1{
+            margin-bottom: 30px;
+            }
+            #user_management .card-header{
+            margin-bottom:30px;
+            
+            }
+            #user_management .card-title {
+                font-size: 2.1rem;
+                font-weight: 600;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            #user_management .card-title::after {
+                background: #f00;
+                background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);  
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height:5px;
+                width: 40%;
+             }
+             #user_management .breadcrumb-item a{
+            color:#000;
+            }
+            #user_management .breadcrumb-item {
+            font-size:20px;
+            }
+            #user_management label:not(.form-check-label):not(.custom-file-label) {
+                font-weight: 500;
+                font-size: 18px;
+            }
+            #user_management .btn-warning:hover {
+                background-color: #000000;
+                border-color: #000000;
+            }
+            #user_management .btn-success {
+                color: #4ad17a;
+                background-color: #ffffff;
+                border-color: #ffffff;
+                box-shadow: none;
+            font-size:24px;
+            }
+            #user_management .btn-success:hover {
+                color: #4ad17a;
+                background-color: #ffffff;
+                border-color: #ffffff;
+            }
+            #user_management .card-body .table thead{
+            background-color: #000;
+                color: #fff;
+            }
+            #user_management .card-body .table thead tr th{
+            padding: 26px 11px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 18px;
+                text-decoration: none;
+                font-weight: 500;
+            }
+            #user_management .card-body .table tbody tr td{
+            padding-top: 38px !important;
+                padding-bottom: 38px !important;
+            }
+            #user_management .table td, .table th {
+                border-top: 1px solid #000000;
+            }
+            #user_management .table-striped tbody tr:nth-of-type(odd) {
+                background-color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size:14px;
+            }
+            #user_management .btn-warning {
+                color: #1f2d3d;
+                background-color: #000000;
+                border-color: #000000;
+                box-shadow: none;
+            }
+            #user_management .page-item.active .page-link {
+                z-index: 3;
+                color: #fff;
+                background-color: #000000;
+                border-color: #000000;
+            }
+            #user_management .page-link {
+                position: relative;
+                display: block;
+                padding: 0.5rem 0.75rem;
+                margin-left: -1px;
+                line-height: 1.25;
+                color: #000000;
+                background-color: #fff;
+                border: 1px solid #dee2e6;
+            }
+            #user_management .page-link:hover {
+                z-index: 2;
+                color: #000000;
+            }
+            #user_management .card-body .pb-5 a.btn.btn-success{
+                color: #fff;
+                    background-color: #000000;
+                    border-color: #000000;
+                    box-shadow: none;
+                    font-size: 24px;
+                }
+        /* End of User Management */
+
+        /* Start of Items List     (table-responsive)*/
+        #items-_list{
+            padding-top: 30px;
+            }
+            #items-_list #form1{
+                margin-bottom: 30px;
+                }
+                #items-_list .card-header{
+                margin-bottom:30px;
+                
+                }
+                #items-_list .card-title {
+                    font-size: 2.1rem;
+                    font-weight: 600;
+                    margin: 0;
+                    font-family: 'Poppins', sans-serif;
+                }
+                #items-_list .card-title::after {
+                    background: #f00;
+                    background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);  
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height:5px;
+                    width: 40%;
+                 }
+                 #items-_list .breadcrumb-item a{
+                color:#000;
+                }
+                #items-_list .breadcrumb-item {
+                font-size:20px;
+                }
+                #items-_list label:not(.form-check-label):not(.custom-file-label) {
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+                #items-_list .btn-warning:hover {
+                    background-color: #000000;
+                    border-color: #000000;
+                }
+                #items-_list .btn-success {
+                    color: #4ad17a;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                    box-shadow: none;
+                font-size:24px;
+                }
+                #items-_list .btn-success:hover {
+                    color: #4ad17a;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                }
+                #items-_list .card-body .table thead{
+                background-color: #000;
+                    color: #fff;
+                }
+                #items-_list .card-body .table thead tr th{
+                    padding: 10px 11px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 14px;
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+                #items-_list .card-body .table tbody tr td{
+                padding-top: 38px !important;
+                    padding-bottom: 38px !important;
+                }
+                #items-_list .table td, .table th {
+                    border-top: 1px solid #000000;
+                }
+                #items-_list .table-striped tbody tr:nth-of-type(odd) {
+                    background-color: #fff;
+                font-family: 'Poppins', sans-serif;
+                font-size:14px;
+                }
+                #items-_list .btn-warning {
+                    color: #1f2d3d;
+                    background-color: #000000;
+                    border-color: #000000;
+                    box-shadow: none;
+                }
+                #items-_list .page-item.active .page-link {
+                    z-index: 3;
+                    color: #fff;
+                    background-color: #000000;
+                    border-color: #000000;
+                }
+                #items-_list .page-link {
+                    position: relative;
+                    display: block;
+                    padding: 0.5rem 0.75rem;
+                    margin-left: -1px;
+                    line-height: 1.25;
+                    color: #000000;
+                    background-color: #fff;
+                    border: 1px solid #dee2e6;
+                }
+                #items-_list .page-link:hover {
+                    z-index: 2;
+                    color: #000000;
+                }
+            
+        /* End of Items List */
+
+        /* Start of Subsidiary Challan List */
+        #subsidiary_challan_list{
+            padding-top: 30px;
+            }
+            #subsidiary_challan_list #form1{
+                margin-bottom: 30px;
+                }
+                #subsidiary_challan_list .card-header{
+                margin-bottom:30px;
+                
+                }
+                #subsidiary_challan_list .card-title {
+                    font-size: 2.1rem;
+                    font-weight: 600;
+                    margin: 0;
+                    font-family: 'Poppins', sans-serif;
+                }
+                #subsidiary_challan_list .card-title::after {
+                    background: #f00;
+                    background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);  
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height:5px;
+                    width: 40%;
+                 }
+                 #subsidiary_challan_list .breadcrumb-item a{
+                color:#000;
+                }
+                #subsidiary_challan_list .breadcrumb-item {
+                font-size:20px;
+                }
+                #subsidiary_challan_list label:not(.form-check-label):not(.custom-file-label) {
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+                #subsidiary_challan_list .btn-warning:hover {
+                    background-color: #000000;
+                    border-color: #000000;
+                }
+                #subsidiary_challan_list .btn-success {
+                    color: #4ad17a;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                    box-shadow: none;
+                font-size:24px;
+                }
+                #subsidiary_challan_list .btn-success:hover {
+                    color: #4ad17a;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                }
+                #subsidiary_challan_list .card-body .table thead{
+                background-color: #000;
+                    color: #fff;
+                }
+                #subsidiary_challan_list .card-body .table thead tr th{
+                padding: 26px 11px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+                #subsidiary_challan_list .card-body .table tbody tr td{
+                padding-top: 38px !important;
+                    padding-bottom: 38px !important;
+                }
+                #subsidiary_challan_list .table td, .table th {
+                    border-top: 1px solid #000000;
+                }
+                #subsidiary_challan_list .table-striped tbody tr:nth-of-type(odd) {
+                    background-color: #fff;
+                font-family: 'Poppins', sans-serif;
+                font-size:14px;
+                }
+                #subsidiary_challan_list .btn-warning {
+                    color: #1f2d3d;
+                    background-color: #000000;
+                    border-color: #000000;
+                    box-shadow: none;
+                }
+                #subsidiary_challan_list .page-item.active .page-link {
+                    z-index: 3;
+                    color: #fff;
+                    background-color: #000000;
+                    border-color: #000000;
+                }
+                #subsidiary_challan_list .page-link {
+                    position: relative;
+                    display: block;
+                    padding: 0.5rem 0.75rem;
+                    margin-left: -1px;
+                    line-height: 1.25;
+                    color: #000000;
+                    background-color: #fff;
+                    border: 1px solid #dee2e6;
+                }
+                #subsidiary_challan_list .page-link:hover {
+                    z-index: 2;
+                    color: #000000;
+                }
+            
+        /* End of Subsidiary Challan List */
+
+
+        /* Start of  Prefix | Suffix Management */
+        #prefix_suffix_management{
+            padding-top: 30px;
+            }
+            #prefix_suffix_management #form1{
+                margin-bottom: 30px;
+                }
+                #prefix_suffix_management .card-header{
+                margin-bottom:30px;
+                
+                }
+                #prefix_suffix_management .card-title {
+                    font-size: 2.1rem;
+                    font-weight: 600;
+                    margin: 0;
+                    font-family: 'Poppins', sans-serif;
+                }
+                #prefix_suffix_management .card-title::after {
+                    background: #f00;
+                    background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);  
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height:5px;
+                    width: 40%;
+                 }
+                 #prefix_suffix_management .breadcrumb-item a{
+                color:#000;
+                }
+                #prefix_suffix_management .breadcrumb-item {
+                font-size:20px;
+                }
+                #prefix_suffix_management label:not(.form-check-label):not(.custom-file-label) {
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+                #prefix_suffix_management .btn-warning:hover {
+                    background-color: #000000;
+                    border-color: #000000;
+                }
+                #prefix_suffix_management .btn-success {
+                    color: #4ad17a;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                    box-shadow: none;
+                font-size:24px;
+                }
+                #prefix_suffix_management .btn-success:hover {
+                    color: #4ad17a;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                }
+                #prefix_suffix_management .card-body .table thead{
+                background-color: #000;
+                    color: #fff;
+                }
+                #prefix_suffix_management .card-body .table thead tr th{
+                padding: 26px 11px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+                #prefix_suffix_management .card-body .table tbody tr td{
+                padding-top: 38px !important;
+                    padding-bottom: 38px !important;
+                }
+                #prefix_suffix_management .table td, .table th {
+                    border-top: 1px solid #000000;
+                }
+                #prefix_suffix_management .table-striped tbody tr:nth-of-type(odd) {
+                    background-color: #fff;
+                font-family: 'Poppins', sans-serif;
+                font-size:14px;
+                }
+                #prefix_suffix_management .btn-warning {
+                    color: #1f2d3d;
+                    background-color: #000000;
+                    border-color: #000000;
+                    box-shadow: none;
+                }
+                #prefix_suffix_management .page-item.active .page-link {
+                    z-index: 3;
+                    color: #fff;
+                    background-color: #000000;
+                    border-color: #000000;
+                }
+                #prefix_suffix_management .page-link {
+                    position: relative;
+                    display: block;
+                    padding: 0.5rem 0.75rem;
+                    margin-left: -1px;
+                    line-height: 1.25;
+                    color: #000000;
+                    background-color: #fff;
+                    border: 1px solid #dee2e6;
+                }
+                #prefix_suffix_management .page-link:hover {
+                    z-index: 2;
+                    color: #000000;
+                }
+                #prefix_suffix_management .card-body .pb-5 a.btn.btn-success{
+                    color: #fff;
+                        background-color: #000000;
+                        border-color: #000000;
+                        box-shadow: none;
+                        font-size: 24px;
+                    }
+
+        /* End Of Prefix | Suffix Management */
+
+        /* Sidebar style */
+        .sidebar-mini.sidebar-collapse .main-sidebar {
+            overflow-x: hidden;
+            background: #000;
+        }
+        .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+            background-color: #555658;
+            color: #fff;
+        }
+        
+        /* End of sidebar style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #user_management */
+
+        #user_management  .btn-primary{
+                color: #7327a3;
+                background-color: #ffffff;
+                border-color: #ffffff;
+                box-shadow: none;
+                font-size: 24px;
+            }
+            #user_management .btn-primary:hover {
+                color: #9a76b1;
+                background-color: #ffffff;
+                border-color: #ffffff;
+            }
+            #user_management .btn-danger:hover {
+                color: #dd3838;
+                background-color: #ffffff;
+                border-color: #ffffff;
+            }
+            /* add user page */
+            #add_user .card-header {
+                margin-bottom: 30px;
+            }
+            #add_user .card-title {
+                font-size: 2.1rem;
+                font-weight: 600;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            #add_user .card-title::after {
+                background: #f00;
+                background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 5px;
+                width: 40%;
+            }
+            #add_user .breadcrumb-item {
+                font-size: 20px;
+            }
+            #add_user .breadcrumb-item a {
+                color: #000;
+            }
+            #add_user .required:after {
+                content: " *";
+                color: black;
+            }
+            #add_user label:not(.form-check-label):not(.custom-file-label) {
+                font-weight: 500;
+                font-size: 20px;
+            }
+            #add_user .btn-success {
+                color: #fff;
+                background-color: #000000;
+                border-color: #010202;
+                box-shadow: none;
+                padding: 4px 30px;
+                font-size: 22px;
+            }
+            #add_user .btn-success:hover {
+                color: #fff;
+                background-color: #000000;
+                border-color: #010202;
+            }
+            #add_user .form-control{
+            border-radius:0px;
+            }
+            #add_user .form-control:focus {
+                color: #000000;
+                background-color: #fff;
+                border-color: #080303;
+                outline: 0;
+                box-shadow: inset 0 0 0 transparent;
+            }
+            /* Update user or edit */
+            #update_user .card-header {
+                margin-bottom: 30px;
+            }
+            #update_user.card-title {
+                font-size: 2.1rem;
+                font-weight: 600;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            #update_user .card-title::after {
+                background: #f00;
+                background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 5px;
+                width: 40%;
+            }
+            #update_user .breadcrumb-item {
+                font-size: 20px;
+            }
+            #update_user .breadcrumb-item a {
+                color: #000;
+            }
+            #update_user .required:after {
+                content: " *";
+                color: black;
+            }
+            #update_user label:not(.form-check-label):not(.custom-file-label) {
+                font-weight: 500;
+                font-size: 20px;
+            }
+            #update_user .btn-success {
+                color: #fff;
+                background-color: #000000;
+                border-color: #010202;
+                box-shadow: none;
+                padding: 4px 30px;
+                font-size: 22px;
+            }
+            #update_user .btn-success:hover {
+                color: #fff;
+                background-color: #000000;
+                border-color: #010202;
+            }
+            #update_user .form-control{
+            border-radius:0px;
+            }
+            #update_user .form-control:focus {
+                color: #000000;
+                background-color: #fff;
+                border-color: #080303;
+                outline: 0;
+                box-shadow: inset 0 0 0 transparent;
+            }
+
+            /* Edit challan */
+            #edit_challan .card-header {
+                margin-bottom: 30px;
+            }
+            #edit_challan .card-title {
+                font-size: 2.1rem;
+                font-weight: 600;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            #edit_challan .card-title::after {
+                background: #f00;
+                background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 5px;
+                width: 40%;
+            }
+            #edit_challan .breadcrumb-item {
+                font-size: 20px;
+            }
+            #edit_challan .breadcrumb-item a {
+                color: #000;
+            }
+           
+            #edit_challan #challanEditForm .btn-success{
+            color: #fff;
+                background-color: #000000;
+                border-color: #000000;
+                box-shadow: none;
+                padding: 7px 12px;
+                font-size: 18px;
+            }
+            #edit_challan #challanEditForm .btn-primary{
+            color: #fff;
+                background-color: #000000;
+                border-color: #000000;
+                box-shadow: none;
+                padding: 7px 12px;
+                font-size: 18px;
+            }
+            #edit_challan .card-body .table thead {
+                background-color: #000;
+                color: #fff;
+            }
+            #edit_challan .card-body .table thead tr th {
+                padding: 12px 16px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                text-decoration: none;
+                font-weight: 500;
+            }
+            #edit_challan .form-group {
+                margin-bottom: 2rem;
+            }
+            #edit_challan .card-body .table tbody tr td {
+                padding-top: 38px !important;
+                padding-bottom: 38px !important;
+            }
+            #edit_challan .table-striped tbody tr:nth-of-type(odd) {
+                background-color: #fff;
+                font-family: 'Poppins', sans-serif;
+                font-size: 14px;
+            }
+            #edit_challan input[type=checkbox], input[type=radio] {
+                box-sizing: border-box;
+                padding: 0;
+                height: 25px;
+                width: 25px;
+            }
+            .modal-title {
+                font-size: 2.1rem;
+                font-weight: 600;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+             .modal-footer .btn-secondary,
+            .modal-footer .btn-primary{
+                            color: #fff;
+                            background-color: #000000;
+                            border-color: #000000;
+                            box-shadow: none;
+                            padding: 7px 12px;
+                            font-size: 18px;
+                        }
+            #exampleModal .modal-body .table thead{
+            background-color: #000;
+                color: #fff;
+            }
+            /* end */
+
+            /*  start View Subsidiary-Challan*/
+
+           #view_subsidiary_challan .card-header {
+                margin-bottom: 30px;
+            }
+            #view_subsidiary_challan .card-title {
+                font-size: 2.1rem;
+                font-weight: 600;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            #view_subsidiary_challan .card-title::after {
+                background: #f00;
+                background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 5px;
+                width: 40%;
+            }
+            #view_subsidiary_challan .breadcrumb-item {
+                font-size: 20px;
+            }
+            #view_subsidiary_challan .breadcrumb-item a {
+                color: #000;
+            }
+            #view_subsidiary_challan .card-body .table thead {
+                background-color: #000;
+                color: #fff;
+            }
+            #view_subsidiary_challan .card-body .table thead tr th {
+                padding: 12px 16px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                text-decoration: none;
+                font-weight: 500;
+            }
+            #view_subsidiary_challan .card-body .table tbody tr td {
+                padding-top: 38px !important;
+                padding-bottom: 38px !important;
+            }
+            #view_subsidiary_challan .table-striped tbody tr:nth-of-type(odd) {
+                background-color: #fff;
+                font-family: 'Poppins', sans-serif;
+                font-size: 14px;
+            }
+
+            /*Start to Edit Prefix | Suffix  */
+            #add_prefix_suffix .card-header {
+                margin-bottom: 30px;
+            }
+            #add_prefix_suffix .card-title {
+                font-size: 2.1rem;
+                font-weight: 600;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            #add_prefix_suffix .card-title::after {
+                background: #f00;
+                background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 5px;
+                width: 40%;
+            }
+            #add_prefix_suffix .breadcrumb-item {
+                font-size: 20px;
+            }
+            #add_prefix_suffix .breadcrumb-item a {
+                color: #000;
+            }
+            #add_prefix_suffix .required:after {
+                content: " *";
+                color: black;
+            }
+            #add_prefix_suffix label:not(.form-check-label):not(.custom-file-label) {
+                font-weight: 500;
+                font-size: 20px;
+            }
+            #add_prefix_suffix .btn-success {
+                color: #fff;
+                background-color: #000000;
+                border-color: #010202;
+                box-shadow: none;
+                padding: 4px 30px;
+                font-size: 22px;
+            }
+            #add_prefix_suffix .btn-success:hover {
+                color: #fff;
+                background-color: #000000;
+                border-color: #010202;
+            }
+            #add_prefix_suffix .form-control{
+            border-radius:0px;
+            }
+            #add_prefix_suffix .form-control:focus {
+                color: #000000;
+                background-color: #fff;
+                border-color: #080303;
+                outline: 0;
+                box-shadow: inset 0 0 0 transparent;
+            }
+            
+
+
+
+            0001648 23-dec-2021 ticket

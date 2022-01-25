@@ -1,0 +1,803 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+*{
+    box-sizing: border-box;
+}
+/* Dashborad page start */
+#dashboard{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family: auto;
+    
+}
+#dashboard .tittle-table h3{
+    font-size: 40px;
+    margin-bottom: 2.5rem;
+    margin-top: 3.5rem;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Donegal One', serif;
+}
+#dashboard .top-content a{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+}
+#dashboard .top-content a.active{
+    font-size: 28px;
+    color: #000;
+    z-index: 1;
+    position: relative;
+    top: -14px;
+    font-weight: 500;
+}
+#dashboard .top-content a.active::after{
+width: 450px;
+background-color: red;
+background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAD1BMVEX/////Dg7/AAD/eXn/xsY13OmvAAAAfUlEQVR4nO3asQGDAAzAsFD4/2Yu6AwO0gfePQMAAAAAAAAAAAAAAAAAAAAAAAAA8FLndvPbbo7tFPYp7FPYp7BPYZ/CPoV9CvsU9insU9insE9hn8I+hX0K+xT2Kez7wItxbff0sAQAAAAAAAAAAAAAAAAAAAAAAAAA8M8NH9oqMXFCd38AAAAASUVORK5CYII=");
+}
+#dashboard .line-top{
+    border: 1px solid;
+    width: 100%;
+}
+#dashboard .red-line{
+    position: absolute;
+    top: -15px;
+    width: 117px;
+    height: 66px;
+    right: 61px;
+}
+#dashboard .content-box{
+    padding: 46px;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#dashboard .inner-box{
+    padding: 100px 60px;
+}
+#dashboard .box-item{
+    border-right: 2px solid;
+    text-align: center;
+}
+#dashboard .box-item span{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+#dashboard .box-item p{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+    margin: 0;
+}
+#dashboard .box-item-num{
+    padding: 30px 0px;
+}
+#dashboard .box-item-num p{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+    text-align: center;
+    margin: 0;
+    transform: rotate(88deg);
+    position: relative;
+    z-index: 1;
+}
+#dashboard .box-item-num img{
+    position: absolute;
+    top: 3rem;
+    left: 2.1rem;
+    width: 12px;
+}
+#dashboard .logout-btn a{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f53939;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#dashboard .logout-btn img{
+    position: absolute;
+    top: 28px;
+    right: 1rem;
+}
+
+/* Dashborad page End*/
+
+/* List Item page start */
+#item-list{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family: auto;
+    
+}
+#item-list .tittle-table h3{
+    font-size: 40px;
+    margin-bottom: 2.5rem;
+    margin-top: 3.5rem;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Donegal One', serif;
+}
+#item-list .top-content a{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+}
+#item-list .top-content a.active{
+    font-size: 28px;
+    color: #000;
+    z-index: 1;
+    position: relative;
+    top: -14px;
+    font-weight: 500;
+}
+#item-list .top-content a.active::after{
+width: 450px;
+background-color: red;
+background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAD1BMVEX/////Dg7/AAD/eXn/xsY13OmvAAAAfUlEQVR4nO3asQGDAAzAsFD4/2Yu6AwO0gfePQMAAAAAAAAAAAAAAAAAAAAAAAAA8FLndvPbbo7tFPYp7FPYp7BPYZ/CPoV9CvsU9insU9insE9hn8I+hX0K+xT2Kez7wItxbff0sAQAAAAAAAAAAAAAAAAAAAAAAAAA8M8NH9oqMXFCd38AAAAASUVORK5CYII=");
+}
+#item-list .line-top{
+    border-top: 1px solid;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+#item-list .red-line{
+    position: absolute;
+    top: -16px;
+    width: 87px;
+    height: 66px;
+    right: 81px;
+}
+#item-list .content-box{
+    padding: 46px;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#item-list .inner-box{
+    padding:0px;
+}
+#item-list .box-item{
+    border-right: 2px solid;
+    text-align: center;
+}
+#item-list .box-item span{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+#item-list .box-item p{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+    margin: 0;
+}
+#item-list .box-item-num{
+    padding: 30px 0px;
+}
+#item-list .box-item-num p{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+    text-align: center;
+    margin: 0;
+    transform: rotate(88deg);
+    position: relative;
+    z-index: 1;
+}
+#item-list .box-item-num img{
+    position: absolute;
+    top: 3rem;
+    left: 2.1rem;
+    width: 12px;
+}
+#item-list .logout-btn{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f53939;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#item-list .log-btn-div img{
+    position: absolute;
+    top: 28px;
+    right: 1rem;
+}
+#item-list .time-detail{
+    border: 1px solid;
+}
+#item-list .time-detail p , #item-list .time-detail label{
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#item-list .submit-item {
+    padding: 25px 0px;
+}
+#item-list .submit-item a{
+    background-color: #256cf5;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 200;
+}
+#item-list .table thead th {
+    vertical-align: bottom;
+    border-bottom: 0px;
+    border-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#item-list .table td, .table th{
+    border-top: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+#item-list  .table-heading{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 11px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 300;
+    width: 148px;
+}
+#item-list  .table-heading-list2{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 300;
+    width: 116px;
+}
+/* The custom-container*/
+.custom-container{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .custom-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .custom-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .custom-container input:checked ~ .checkmark {
+    background-color: #d58189;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .custom-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .custom-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  #item-list .form-control{
+    border: 0px;
+    border-bottom: 1px solid #d7d7d7;
+    border-radius: 0;
+  }
+  .more-view-btn{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 11px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .more-view-btn:hover{
+    color: #fff ;
+  }
+  a{
+      text-decoration: none !important;
+  }
+
+.highlight_row {
+    background: #fff;
+    color: #000;
+}
+.highlight_row td, .highlight_row th{
+    color: #000 !important;  
+}
+#item-list .record_table td, .record_table th{
+    border-top: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #d5d5d5;
+}
+.log-btn-div{
+margin-bottom: 5rem;
+}
+th a{
+    font-weight: 500;
+}
+.challan-num{
+    padding-top: 38px !important;
+}
+/* List Item page start */
+
+
+/* Challan List stylsheet */
+#challan-list{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family: auto;
+    
+}
+#challan-list .tittle-table h3{
+    font-size: 40px;
+    margin-bottom: 2.5rem;
+    margin-top: 3.5rem;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Donegal One', serif;
+}
+#challan-list .top-content a{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+}
+#challan-list .top-content a.active{
+    font-size: 28px;
+    color: #000;
+    z-index: 1;
+    position: relative;
+    top: -14px;
+    font-weight: 500;
+}
+#challan-list .top-content a.active::after{
+width: 450px;
+background-color: red;
+background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAD1BMVEX/////Dg7/AAD/eXn/xsY13OmvAAAAfUlEQVR4nO3asQGDAAzAsFD4/2Yu6AwO0gfePQMAAAAAAAAAAAAAAAAAAAAAAAAA8FLndvPbbo7tFPYp7FPYp7BPYZ/CPoV9CvsU9insU9insE9hn8I+hX0K+xT2Kez7wItxbff0sAQAAAAAAAAAAAAAAAAAAAAAAAAA8M8NH9oqMXFCd38AAAAASUVORK5CYII=");
+}
+#challan-list .line-top{
+    border-top: 1px solid;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+#challan-list .red-line{
+    position: absolute;
+    top: -16px;
+    width: 102px;
+    height: 66px;
+    right: 58px;
+}
+#challan-list .content-box{
+    padding: 46px;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#challan-list .inner-box{
+    padding:0px;
+}
+#challan-list .box-item{
+    border-right: 2px solid;
+    text-align: center;
+}
+#challan-list .box-item span{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+#challan-list .box-item p{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+    margin: 0;
+}
+#challan-list .box-item-num{
+    padding: 30px 0px;
+}
+#challan-list .box-item-num p{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+    text-align: center;
+    margin: 0;
+    transform: rotate(88deg);
+    position: relative;
+    z-index: 1;
+}
+#challan-list .box-item-num img{
+    position: absolute;
+    top: 3rem;
+    left: 2.1rem;
+    width: 12px;
+}
+#challan-list .logout-btn{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f53939;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#challan-list .log-btn-div img{
+    position: absolute;
+    top: 28px;
+    right: 1rem;
+}
+#challan-list .time-detail{
+    border: 1px solid;
+}
+#challan-list .time-detail p , #challan-list .time-detail label{
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#challan-list .submit-item {
+    padding: 25px 0px;
+}
+#challan-list .submit-item a{
+    background-color: #256cf5;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 200;
+}
+#challan-list .table thead th {
+    vertical-align: bottom;
+    border-bottom: 0px;
+    border-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#challan-list .table td, .table th{
+    border-top: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+#challan-list  .table-heading{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 11px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 300;
+    width: 148px;
+}
+#challan-list  .table-heading-list2{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    width: 150px;
+}
+#challan-list  .status-line{
+    position: relative;
+    top: 5px;
+    right: 37px;
+    width: 32px;
+    z-index: -1;
+}
+
+#datepicker{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+#to-datepicker{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.time-calender{
+    position: absolute;
+    right: 110px;
+    top: 8px;
+    cursor: pointer;
+}
+.to-time-calender {
+    position: absolute;
+    right: 130px;
+    top: 8px;
+    cursor: pointer;
+}
+.selectpicker{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.datepicker-div{
+    margin-bottom: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+.table thead{
+    background-color: #000;
+}
+
+/* Challan List End */
+
+
+/* subsidiary-challan stylesheet */
+#subsidiary-challan{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family: auto;
+    
+}
+#subsidiary-challan .tittle-table h3{
+    font-size: 40px;
+    margin-bottom: 2.5rem;
+    margin-top: 3.5rem;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Donegal One', serif;
+}
+#subsidiary-challan .top-content a{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+}
+#subsidiary-challan .top-content a.active{
+    font-size: 25px;
+    color: #000;
+    z-index: 1;
+    position: relative;
+    top: -14px;
+    font-weight: 500;
+}
+#subsidiary-challan .top-content a.active::after{
+width: 450px;
+background-color: red;
+background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAD1BMVEX/////Dg7/AAD/eXn/xsY13OmvAAAAfUlEQVR4nO3asQGDAAzAsFD4/2Yu6AwO0gfePQMAAAAAAAAAAAAAAAAAAAAAAAAA8FLndvPbbo7tFPYp7FPYp7BPYZ/CPoV9CvsU9insU9insE9hn8I+hX0K+xT2Kez7wItxbff0sAQAAAAAAAAAAAAAAAAAAAAAAAAA8M8NH9oqMXFCd38AAAAASUVORK5CYII=");
+}
+#subsidiary-challan .line-top{
+    border-top: 1px solid;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+#subsidiary-challan .red-line{
+    position: absolute;
+    top: -19px;
+    width: 92px;
+    height: 66px;
+    right: 17px;
+}
+#subsidiary-challan .content-box{
+    padding: 46px;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#subsidiary-challan .inner-box{
+    padding:0px;
+}
+#subsidiary-challan .box-item{
+    border-right: 2px solid;
+    text-align: center;
+}
+#subsidiary-challan .box-item span{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+#subsidiary-challan .box-item p{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+    margin: 0;
+}
+#subsidiary-challan .box-item-num{
+    padding: 30px 0px;
+}
+#subsidiary-challan .box-item-num p{
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #282525;
+    text-align: center;
+    margin: 0;
+    transform: rotate(88deg);
+    position: relative;
+    z-index: 1;
+}
+#subsidiary-challan .box-item-num img{
+    position: absolute;
+    top: 3rem;
+    left: 2.1rem;
+    width: 12px;
+}
+#subsidiary-challan .logout-btn{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #f53939;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#subsidiary-challan .log-btn-div img{
+    position: absolute;
+    top: 28px;
+    right: 1rem;
+}
+#subsidiary-challan .time-detail{
+    border: 1px solid;
+}
+#subsidiary-challan .time-detail p , #subsidiary-challan .time-detail label{
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#subsidiary-challan .submit-item {
+    padding: 25px 0px;
+}
+#subsidiary-challan .submit-item a{
+    background-color: #256cf5;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 200;
+}
+#subsidiary-challan .table thead th {
+    vertical-align: bottom;
+    border-bottom: 0px;
+    border-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#subsidiary-challan .table td, .table th{
+    border-top: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+#subsidiary-challan  .table-heading{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 11px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 300;
+    width: 148px;
+}
+#subsidiary-challan  .table-heading-list2{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    width: 150px;
+}
+#subsidiary-challan .challan-num {
+    padding-top: 38px !important;
+    padding-bottom: 38px !important;
+}
+#subsidiary-challan  .address-gst-div{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+#subsidiary-challan .gst{
+text-align: right;
+}
+#subsidiary-challan .challan-detail-div{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    border: 1px solid;
+    padding: 8px;
+}
+
+#subsidiary-challan {
+    --w:400px;
+  --n:3;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(clamp(100%/(var(--n) + 1) + 0.1%,(var(--w) - 100vw)*1000,100%),1fr)); /*this */
+  gap:10px;
+}

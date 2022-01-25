@@ -1,0 +1,72 @@
+body{
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Bebas Neue', cursive; */
+font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.main-body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background: linear-gradient(90deg, rgba(198,232,255,1) 0%, rgba(249,247,247,1) 51%, rgba(251,192,192,1) 96%);
+    font-family: auto;
+    
+}
+.inputbar{
+    border-bottom: 2px solid #1a1717;
+    margin-bottom: 25px;
+    border-left: 0;
+    border-radius: 0;
+    border-right: 0;
+    border-top: 0;
+    font-size: 20px;
+    outline: none;
+    background: transparent;
+}
+.inputbar:focus {
+    color: #212529;
+    background-color: transparent;
+    border-color: #0014ff;
+    outline: 0;
+    box-shadow: none;
+}
+.tittlebar{
+color: #000;
+}
+.tittlebar h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.custom-btn{
+    background: #256cf5;
+    border: aliceblue;
+    padding: 4px 44px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 2px 2px #b9b9b9;
+}
+.custom-btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.custom-btn:hover{
+    background: #427df5;
+    color: #fff;
+}
+.loginbtn{
+    padding: 10px 24px;
+}
+.loginIcon{
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+}
